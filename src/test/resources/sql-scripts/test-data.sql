@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS movies;
+
 CREATE TABLE IF NOT EXISTS movies(
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
@@ -12,4 +14,4 @@ INSERT INTO movies (name, duration, genre) values
     ('Super 8',112 , 'THRILLER'),
     ('Scream', 11, 'HORROR'),
     ('Home alone', 103, 'COMEDY'),
-    ('Matrix', 136, 'ACTION');
+    ('Super man', 136, 'ACTION');

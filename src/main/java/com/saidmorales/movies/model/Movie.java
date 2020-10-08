@@ -13,7 +13,8 @@ public class Movie {
         this(null, name, duration,genre);
     }
 
-
+    public Movie() {
+    }
 
     public Movie(Integer id, String name, Integer duration, Genre genre) {
         this.id = id;
